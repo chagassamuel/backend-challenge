@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "aadf1053-efa8-45ff-afaf-7ab32d20304f",
+		"name": "Itau",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Validar Senha",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"password\": \"Abcdefg1+\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/password/validate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"password",
+						"validate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

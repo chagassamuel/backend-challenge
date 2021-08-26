@@ -1,0 +1,34 @@
+[
+	{
+		"password": "",
+		"valid": false
+	},
+	{
+		"password": "aa",
+		"valid": false
+	},
+	{
+		"password": "ab",
+		"valid": false
+	},
+	{
+		"password": "AAAbbbCc",
+		"valid": false
+	},
+	{
+		"password": "AbTp9!foo",
+		"valid": false
+	},
+	{
+		"password": "AbTp9!foA",
+		"valid": false
+	},
+	{
+		"password": "AbTp9 fok",
+		"valid": false
+	},
+	{
+		"password": "AbTp9!fok",
+		"valid": true
+	}
+]
